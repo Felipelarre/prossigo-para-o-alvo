@@ -1,0 +1,13 @@
+# Dependências (o site não tem build; GSAP vai versionado em assets/js/vendor/)
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pasta vazia presa pela sincronização do Google Drive (não faz parte do site)
+assets/images/
+
+# Netlify
+.netlify/

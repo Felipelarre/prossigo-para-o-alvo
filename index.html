@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="is-preloading">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--
+    ATENÇÃO: troque o domínio "https://prossigoparaoalvo.org.br" abaixo
+    (canonical, og:url, JSON-LD) pelo domínio real quando o site for publicado.
+    Endereço físico foi omitido de propósito até confirmação do cliente.
+  -->
+
+  <title>Prossigo para o Alvo | Comunidade Terapêutica Cristã em Pernambuco</title>
+  <meta name="description" content="Comunidade terapêutica cristã de acolhimento para homens e mulheres em recuperação da dependência química, em Pernambuco. Trabalho, oração e convivência — e gente que não desiste de ninguém." />
+  <link rel="canonical" href="https://prossigoparaoalvo.org.br/" />
+  <meta name="theme-color" content="#1f3d2b" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Prossigo para o Alvo" />
+  <meta property="og:title" content="Prossigo para o Alvo | Comunidade Terapêutica Cristã" />
+  <meta property="og:description" content="Acolhimento cristão para homens e mulheres em recuperação da dependência química, em Pernambuco." />
+  <meta property="og:url" content="https://prossigoparaoalvo.org.br/" />
+  <meta property="og:image" content="https://prossigoparaoalvo.org.br/assets/fotos/og-prossigo-para-o-alvo.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/fotos/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/fotos/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/fotos/favicon-180.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="assets/fotos/oracao-em-grupo.webp" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Preloader: cobre a tela instantaneamente e some sozinho mesmo sem JS -->
+  <style>
+    .is-preloading, .is-preloading body { overflow: hidden; }
+    .preloader {
+      position: fixed; inset: 0; z-index: 9999;
+      display: grid; place-items: center;
+      background: #f5f0e6;
+      animation: preloader-failsafe 0s linear 4s forwards;
+    }
+    @keyframes preloader-failsafe { to { opacity: 0; visibility: hidden; pointer-events: none; } }
+  </style>
+  <noscript><style>
+    .preloader { display: none !important; }
+    .is-preloading, .is-preloading body { overflow: auto !important; }
+  </style></noscript>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Prossigo para o Alvo",
+    "alternateName": "Instituto Prossigo para o Alvo",
+    "description": "Comunidade terapêutica cristã de acolhimento e recuperação para homens e mulheres em situação de dependência química, em Pernambuco.",
+    "url": "https://prossigoparaoalvo.org.br/",
+    "logo": "https://prossigoparaoalvo.org.br/assets/fotos/logo-prossigo.png",
+    "image": "https://prossigoparaoalvo.org.br/assets/fotos/og-prossigo-para-o-alvo.jpg",
+    "areaServed": { "@type": "State", "name": "Pernambuco" },
+    "sameAs": [ "https://instagram.com/prossigopalvo" ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-81-98694-9528",
+      "contactType": "acolhimento",
+      "availableLanguage": "Portuguese"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <div class="preloader" data-preloader role="presentation">
+    <div class="preloader__mark" aria-hidden="true">
+      <svg class="preloader__rings" viewBox="0 0 120 120" width="92" height="92" fill="none">
+        <circle class="preloader__ring" cx="60" cy="60" r="46" stroke="#1f3d2b" stroke-width="5.5" />
+        <circle class="preloader__ring" cx="60" cy="60" r="27" stroke="#1f3d2b" stroke-width="5.5" />
+        <circle class="preloader__dot" cx="60" cy="60" r="10" fill="#b5623c" />
+      </svg>
+      <span class="preloader__word">Prossigo para o Alvo</span>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" data-header>
+    <div class="wrap site-header__inner">
+      <a href="#topo" class="brand" aria-label="Prossigo para o Alvo — início">
+        <picture>
+          <source srcset="assets/fotos/logo-prossigo.webp" type="image/webp" />
+          <img src="assets/fotos/logo-prossigo.png" width="220" height="197" alt="" class="brand__mark" />
+        </picture>
+        <span class="brand__name">Prossigo <em>para o</em> Alvo</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-primary" data-nav-toggle>
+          <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span></span>
+          <span class="nav-toggle__label">Menu</span>
+        </button>
+        <ul class="nav-list" id="menu-primary" data-nav-list>
+          <li><a href="#comunidade">A comunidade</a></li>
+          <li><a href="#caminhada">A caminhada</a></li>
+          <li><a href="#acolhimento">Acolhimento</a></li>
+          <li><a href="#familias">Famílias</a></li>
+          <li><a href="#apoie">Apoie</a></li>
+          <li><a href="#contato" class="nav-cta">Falar conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="topo">
+      <div class="wrap hero__grid">
+        <div class="hero__body">
+          <p class="kicker" data-reveal>Pernambuco · Comunidade Terapêutica Cristã</p>
+          <h1 class="hero__title" data-reveal>
+            A recuperação é uma <span class="ink-accent">caminhada</span> — e ninguém precisa andar sozinho.
+          </h1>
+          <p class="hero__lead" data-reveal>
+            A <strong>Prossigo para o Alvo</strong> acolhe homens e mulheres que querem sair
+            da dependência química. Aqui a mudança acontece no dia a dia: trabalho, oração,
+            convivência e o apoio de quem não desiste de ninguém.
+          </p>
+          <div class="hero__actions" data-reveal>
+            <a class="btn btn--solid" href="https://wa.me/5581986949528?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20conversar%20sobre%20o%20acolhimento."
+               target="_blank" rel="noopener">Conversar no WhatsApp</a>
+            <a class="btn btn--ghost" href="#comunidade">Conhecer o trabalho</a>
+          </div>
+          <p class="hero__note" data-reveal>
+            Atendimento a famílias de toda a região. A primeira conversa é sem compromisso.
+          </p>
+        </div>
+
+        <figure class="hero__figure" data-reveal>
+          <img src="assets/fotos/oracao-em-grupo.webp" width="1080" height="1080"
+               fetchpriority="high" decoding="async"
+               alt="Homens reunidos em círculo, de pé e com as mãos erguidas, durante um momento de oração ao ar livre na comunidade." />
+          <figcaption>Momento de oração na comunidade</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== MANIFESTO / COMUNIDADE ===================== -->
+    <section class="band band--bone section" id="comunidade">
+      <div class="wrap">
+        <p class="kicker" data-reveal>Quem somos</p>
+        <h2 class="section__title measure" data-reveal>
+          Não é uma clínica. É uma comunidade que caminha junto.
+        </h2>
+        <div class="lede-grid">
+          <div class="lede-grid__text">
+            <p data-reveal>
+              Na Prossigo para o Alvo, a recuperação não fica trancada em consultório. Ela acontece
+              na rotina — no serviço da casa, na roça, na mesa compartilhada, na oração da manhã e
+              na conversa que vira madrugada. É viver de novo, em comunidade, com propósito.
+            </p>
+            <p data-reveal>
+              O nome vem de Filipenses 3, versículos 13 e 14: <em>“esquecendo-me das coisas que
+              atrás ficam e avançando para as que estão diante de mim, prossigo para o alvo”</em>.
+              É essa a proposta — seguir em frente, um passo de cada vez, sem carregar o peso de
+              tudo o que passou.
+            </p>
+          </div>
+          <ul class="care-list" aria-label="Os três cuidados da comunidade">
+            <li data-reveal>
+              <h3>Corpo</h3>
+              <p>Rotina estruturada, trabalho, alimentação e descanso num ambiente natural e tranquilo.</p>
+            </li>
+            <li data-reveal>
+              <h3>Convivência</h3>
+              <p>Viver em grupo, reconstruir vínculos, aprender de novo a conviver, ceder e confiar.</p>
+            </li>
+            <li data-reveal>
+              <h3>Espírito</h3>
+              <p>A fé cristã como base que sustenta a caminhada e dá sentido ao recomeço.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== A CAMINHADA / DIA A DIA ===================== -->
+    <section class="band band--sand section" id="caminhada">
+      <div class="wrap">
+        <p class="kicker" data-reveal>O dia a dia</p>
+        <h2 class="section__title measure" data-reveal>Como é a caminhada por aqui</h2>
+
+        <div class="daily">
+          <figure class="daily__photo daily__photo--tall" data-reveal>
+            <img src="assets/fotos/estudo-biblico.webp" width="418" height="743" loading="lazy" decoding="async"
+                 alt="Homens sentados a uma longa mesa ao ar livre, lendo a Bíblia durante um estudo em grupo." />
+          </figure>
+
+          <ol class="daily__list">
+            <li data-reveal>
+              <h3>Trabalho e serviço</h3>
+              <p>O cuidado com a casa e com a terra devolve disciplina, foco e o valor de ver o próprio esforço render fruto.</p>
+            </li>
+            <li data-reveal>
+              <h3>Oração e Palavra</h3>
+              <p>O dia começa e termina com oração. O estudo bíblico em grupo é o centro da rotina espiritual.</p>
+            </li>
+            <li data-reveal>
+              <h3>Convivência</h3>
+              <p>Refeições juntos, conversas, trabalho em equipe. É na convivência que os vínculos se refazem.</p>
+            </li>
+            <li data-reveal>
+              <h3>Descanso e natureza</h3>
+              <p>Um ambiente afastado do barulho, com verde por perto, ajuda o corpo e a mente a desacelerar.</p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="photo-strip" aria-label="Momentos da comunidade">
+          <figure data-reveal>
+            <img src="assets/fotos/encontro-palavra.webp" width="1080" height="810" loading="lazy" decoding="async"
+                 alt="Pregação ao ar livre: um homem fala em pé enquanto outras pessoas ouvem sentadas, sob a cobertura da comunidade." />
+          </figure>
+          <figure data-reveal>
+            <img src="assets/fotos/equipe-colaboradores.webp" width="1080" height="810" loading="lazy" decoding="async"
+                 alt="Grupo de colaboradores e voluntários reunidos e sorrindo, com as bandeiras de Pernambuco, do Brasil e de Israel ao fundo." />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ACOLHIMENTO ===================== -->
+    <section class="band band--bone section" id="acolhimento">
+      <div class="wrap">
+        <p class="kicker" data-reveal>Como começar</p>
+        <h2 class="section__title measure" data-reveal>Do primeiro contato ao acolhimento</h2>
+        <p class="section__lead measure" data-reveal>
+          Cada história é diferente, e o caminho respeita o tempo de cada pessoa. Mas ele
+          costuma começar assim:
+        </p>
+
+        <ol class="steps">
+          <li class="step" data-reveal>
+            <span class="step__num">1</span>
+            <h3>Fale conosco</h3>
+            <p>Você, um familiar ou um amigo entra em contato pelo WhatsApp. A conversa é acolhedora e sigilosa.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">2</span>
+            <h3>Conversa e visita</h3>
+            <p>Entendemos a situação, tiramos dúvidas e convidamos a família a conhecer a comunidade de perto.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">3</span>
+            <h3>Acolhimento</h3>
+            <p>A pessoa é recebida na comunidade, em regime residencial, e passa a fazer parte da rotina e do grupo.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num">4</span>
+            <h3>Reintegração</h3>
+            <p>Aos poucos, o vínculo com a família e com a vida lá fora é reconstruído, com acompanhamento.</p>
+          </li>
+        </ol>
+
+        <div class="callout" data-reveal>
+          <p><strong>Homens e mulheres são acolhidos.</strong> Se você está em dúvida se é o momento certo, fale com a equipe mesmo assim — ajudamos a entender o próximo passo.</p>
+          <a class="btn btn--solid" href="https://wa.me/5581986949528?text=Ol%C3%A1%2C%20gostaria%20de%20entender%20como%20funciona%20o%20acolhimento." target="_blank" rel="noopener">Falar com a equipe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAMÍLIAS ===================== -->
+    <section class="band band--sand section" id="familias">
+      <div class="wrap familias">
+        <div class="familias__text">
+          <p class="kicker" data-reveal>Para as famílias</p>
+          <h2 class="section__title" data-reveal>Você não precisa enfrentar isso sozinho</h2>
+          <p data-reveal>
+            Quando a dependência química chega em casa, a família inteira adoece junto: o medo,
+            a culpa, as noites sem dormir. Aqui, o familiar acolhido é tratado com a mesma
+            seriedade com que você trataria o seu filho, o seu irmão, o seu pai.
+          </p>
+          <ul class="tick-list">
+            <li data-reveal>Acompanhamento da família durante todo o processo</li>
+            <li data-reveal>Visitas programadas para manter o vínculo vivo</li>
+            <li data-reveal>Orientação sobre como apoiar sem sabotar a recuperação</li>
+            <li data-reveal>Preparação conjunta para o retorno ao convívio</li>
+          </ul>
+        </div>
+        <figure class="familias__photo" data-reveal>
+          <img src="assets/fotos/acao-social-sacolas.webp" width="1080" height="810" loading="lazy" decoding="async"
+               alt="Fila de homens sorrindo, cada um segurando uma sacola amarela, durante uma ação da comunidade sob a faixa com o versículo de Filipenses 3." />
+          <figcaption>Ação entre a comunidade e parceiros</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== FÉ QUE SUSTENTA ===================== -->
+    <section class="band band--pine section verse" id="fe">
+      <div class="wrap verse__inner">
+        <p class="kicker kicker--light" data-reveal>Fé que sustenta</p>
+        <blockquote class="verse__quote" data-reveal>
+          <p>“Restituir-vos-ei os anos que comeu o gafanhoto.”</p>
+          <cite>Joel 2.25</cite>
+        </blockquote>
+        <p class="verse__text measure" data-reveal>
+          É essa a esperança que move este trabalho: a de que os anos perdidos para o vício
+          não são o fim da história. Há vida depois — e ela pode ser reconstruída.
+        </p>
+        <blockquote class="verse__quote verse__quote--sub" data-reveal>
+          <p>“Esquecendo-me das coisas que atrás ficam e avançando para as que estão diante de mim, prossigo para o alvo.”</p>
+          <cite>Filipenses 3.13-14</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ===================== APOIE ===================== -->
+    <section class="band band--bone section" id="apoie">
+      <div class="wrap">
+        <p class="kicker" data-reveal>Faça parte</p>
+        <h2 class="section__title measure" data-reveal>Apoie quem está recomeçando</h2>
+        <p class="section__lead measure" data-reveal>
+          A comunidade se mantém com o trabalho de dentro e com a mão de quem chega de fora.
+          Há várias formas de somar:
+        </p>
+
+        <div class="support">
+          <article class="support__card" data-reveal>
+            <h3>Doações</h3>
+            <p>Alimentos, materiais e contribuição financeira ajudam a manter a estrutura e o acolhimento.</p>
+            <a class="link-arrow" href="https://wa.me/5581986949528?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20doa%C3%A7%C3%A3o." target="_blank" rel="noopener">Falar sobre doação</a>
+          </article>
+          <article class="support__card" data-reveal>
+            <h3>Voluntariado</h3>
+            <p>Ofícios, palestras, apoio espiritual, transporte — tempo e talento sempre fazem falta.</p>
+            <a class="link-arrow" href="https://wa.me/5581986949528?text=Ol%C3%A1%2C%20quero%20ser%20volunt%C3%A1rio(a)." target="_blank" rel="noopener">Quero ajudar</a>
+          </article>
+          <article class="support__card" data-reveal>
+            <h3>Parcerias</h3>
+            <p>Igrejas, empresas e grupos como os Colaboradores de Cristo caminham junto com a gente.</p>
+            <a class="link-arrow" href="https://wa.me/5581986949528?text=Ol%C3%A1%2C%20represento%20um%20grupo%2Figreja%2Fempresa%20e%20quero%20ser%20parceiro." target="_blank" rel="noopener">Ser parceiro</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="band band--pine section contato" id="contato">
+      <div class="wrap contato__grid">
+        <div class="contato__intro">
+          <p class="kicker kicker--light" data-reveal>Fale conosco</p>
+          <h2 class="section__title" data-reveal>O primeiro passo é uma conversa</h2>
+          <p data-reveal>
+            Sem formulário longo, sem cobrança. Chame no WhatsApp ou deixe seu contato que
+            retornamos. Se puder, venha conhecer a comunidade com seus próprios olhos antes
+            de qualquer decisão.
+          </p>
+
+          <ul class="contato__channels">
+            <li data-reveal>
+              <span class="contato__label">WhatsApp e telefone</span>
+              <a href="https://wa.me/5581986949528" target="_blank" rel="noopener">(81) 98694-9528</a>
+            </li>
+            <li data-reveal>
+              <span class="contato__label">Instagram</span>
+              <a href="https://instagram.com/prossigopalvo" target="_blank" rel="noopener">@prossigopalvo</a>
+            </li>
+            <li data-reveal>
+              <span class="contato__label">Onde ficamos</span>
+              <span>Pernambuco. Envie mensagem para combinar uma visita e receber a localização.</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contato__form" data-wa-form aria-labelledby="form-title">
+          <h3 id="form-title">Deixe seu contato</h3>
+          <p class="contato__form-hint">Ao enviar, abrimos o WhatsApp com sua mensagem já escrita.</p>
+
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" autocomplete="name" required />
+
+          <label for="telefone">Seu WhatsApp</label>
+          <input type="tel" id="telefone" name="telefone" inputmode="tel" autocomplete="tel"
+                 placeholder="(81) 90000-0000" required />
+
+          <label for="mensagem">Como podemos ajudar?</label>
+          <textarea id="mensagem" name="mensagem" rows="4"
+                    placeholder="Conte um pouco da situação — para você ou para um familiar."></textarea>
+
+          <button type="submit" class="btn btn--solid btn--block">Enviar pelo WhatsApp</button>
+
+          <p class="contato__privacy">
+            Seus dados são usados apenas para este atendimento e não são compartilhados com
+            terceiros, conforme a Lei Geral de Proteção de Dados (LGPD).
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <div class="site-footer__brand">
+        <picture>
+          <source srcset="assets/fotos/logo-prossigo.webp" type="image/webp" />
+          <img src="assets/fotos/logo-prossigo.png" width="220" height="197" alt="" />
+        </picture>
+        <p>Prossigo para o Alvo<br /><span>Comunidade Terapêutica Cristã · Pernambuco</span></p>
+      </div>
+      <ul class="site-footer__links">
+        <li><a href="https://wa.me/5581986949528" target="_blank" rel="noopener">WhatsApp (81) 98694-9528</a></li>
+        <li><a href="https://instagram.com/prossigopalvo" target="_blank" rel="noopener">Instagram @prossigopalvo</a></li>
+      </ul>
+      <p class="site-footer__verse">“Prossigo para o alvo.” — Filipenses 3.14</p>
+      <p class="site-footer__legal">© <span data-year>2026</span> Prossigo para o Alvo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float is-tucked" href="https://wa.me/5581986949528?text=Ol%C3%A1%2C%20vim%20pelo%20site." target="_blank" rel="noopener" aria-label="Falar no WhatsApp" data-wa-float>
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 2.1.55 4.06 1.6 5.83L2 22l4.4-1.15a9.86 9.86 0 0 0 5.64 1.76h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.8c2.17 0 4.2.85 5.74 2.38a8.06 8.06 0 0 1 2.38 5.73c0 4.47-3.64 8.11-8.12 8.11a8.1 8.1 0 0 1-4.9-1.64l-.35-.26-2.61.68.7-2.55-.23-.36a8.05 8.05 0 0 1-1.25-4.3c0-4.47 3.64-8.11 8.11-8.11ZM8.53 7.33c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.02 0 1.19.87 2.34 1 2.5.12.16 1.7 2.72 4.2 3.7 2.08.82 2.5.66 2.96.62.46-.04 1.48-.6 1.69-1.19.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.46-.28-.24-.12-1.48-.73-1.71-.81-.23-.09-.4-.13-.56.12-.16.24-.64.8-.78.97-.14.16-.29.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.69-.14-.24-.02-.37.1-.49.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.53-1.35-.75-1.84-.19-.44-.39-.44-.54-.45h-.28Z"/>
+    </svg>
+    <span>Falar agora</span>
+  </a>
+
+  <script src="assets/js/vendor/gsap.min.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
